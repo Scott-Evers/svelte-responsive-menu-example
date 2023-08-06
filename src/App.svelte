@@ -1,33 +1,28 @@
 <script lang="ts">
-	import Menu from './components/Menu.svelte'
-	import MenuItem from './components/MenuItem.svelte'
+	import PageBase from './PageBase.svelte'
 	export let name: string;
 </script>
 
-<Menu>
-	<MenuItem url="/">Home</MenuItem>
-	<MenuItem url="/about">About</MenuItem>
-</Menu>
 <main>
-	<h1>Hello {name}!</h1>
-	<p>Visit the <a href="https://svelte.dev/tutorial">Svelte tutorial</a> to learn how to build Svelte apps.</p>
-	<h1>Hello {name}!</h1>
-	<p>Visit the <a href="https://svelte.dev/tutorial">Svelte tutorial</a> to learn how to build Svelte apps.</p>
-	<h1>Hello {name}!</h1>
-	<p>Visit the <a href="https://svelte.dev/tutorial">Svelte tutorial</a> to learn how to build Svelte apps.</p>
-	<h1>Hello {name}!</h1>
-	<p>Visit the <a href="https://svelte.dev/tutorial">Svelte tutorial</a> to learn how to build Svelte apps.</p>
-	<h1>Hello {name}!</h1>
-	<p>Visit the <a href="https://svelte.dev/tutorial">Svelte tutorial</a> to learn how to build Svelte apps.</p>
-	<h1>Hello {name}!</h1>
-	<p>Visit the <a href="https://svelte.dev/tutorial">Svelte tutorial</a> to learn how to build Svelte apps.</p>
+	<PageBase>
+		<h1>Hello {name}!</h1>
+		<p>Visit the <a href="https://svelte.dev/tutorial">Svelte tutorial</a> to learn how to build Svelte apps.</p>
+		<h1>Hello {name}!</h1>
+		<p>Visit the <a href="https://svelte.dev/tutorial">Svelte tutorial</a> to learn how to build Svelte apps.</p>
+		<h1>Hello {name}!</h1>
+		<p>Visit the <a href="https://svelte.dev/tutorial">Svelte tutorial</a> to learn how to build Svelte apps.</p>
+		<h1>Hello {name}!</h1>
+		<p>Visit the <a href="https://svelte.dev/tutorial">Svelte tutorial</a> to learn how to build Svelte apps.</p>
+		<h1>Hello {name}!</h1>
+		<p>Visit the <a href="https://svelte.dev/tutorial">Svelte tutorial</a> to learn how to build Svelte apps.</p>
+		<h1>Hello {name}!</h1>
+		<p>Visit the <a href="https://svelte.dev/tutorial">Svelte tutorial</a> to learn how to build Svelte apps.</p>
+	</PageBase>
 </main>
 
 <style>
 	main {
-		text-align: center;
-		padding: 1em;
-		max-width: 240px;
+		padding: 0;
 		margin: 0 auto;
 	}
 
